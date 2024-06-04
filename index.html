@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="./script.js"></script>
+        <style>
+            body {
+                overflow: hidden;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Timer:</h1>
+        <h2 id="timer">00:00</h2>
+        <label>Mettez un nombre pour lancer le timer en seconde</label><input id='number' type="number">
+        <button onclick="startTimer()">Lancer le timer</button>
+    </body>
+</html>
